@@ -1,1 +1,2 @@
-# CsFAPbI6
+The MLP file Lammps inputs for simulating halide perovskites with mixed cations of Cs and FA.
+To avoid the confusion of software versions, it is suggested to use the sigularity image of Deepmd-kit. The MLP is can be runned on the integrated lammps in the deepmd-kit_3.0.0a0_cuda118 package using the command: singularity exec --nv  ${your path of image file}/deepmd-kit_3.0.0a0_cuda118.sif lmp -in input.lammps
