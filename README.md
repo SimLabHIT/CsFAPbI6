@@ -49,5 +49,7 @@ cat PbI.pb.part_* > PbI.pb
   File              Description
   ----------------- ----------------------------------------------
   input.lammps      Example LAMMPS input file for MD simulations
+  
   PbI.pb.part\_\*   Split machine learning potential files
+  
   PbI.pb            Reconstructed DeepMD potential file
